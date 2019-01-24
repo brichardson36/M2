@@ -49,9 +49,4 @@ public class Person2 {
 	public String toString(String input) {
 	  return name + calc(input);
 	}
-
-	public static void main(String[] args) {
-		Person2 me = new Person2("Ashley");
-		System.out.println(me.calc("Ashley"));
-	}
 }
