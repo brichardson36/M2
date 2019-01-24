@@ -36,7 +36,8 @@ public class Person2 {
 		for (int i = 0; i < input.length(); i++) {
 			inputSB.setCharAt(i, input.charAt((int) (Math.random() * input.length())));
 		}
-	  return inputSB.toString();
+
+		return inputSB.toString();
 	}
 	/**
 	 * Return a string rep of this object
