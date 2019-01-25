@@ -30,16 +30,8 @@ public class Person5 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	 // StringBuilder output = new StringBuilder(input);
-	 // StringBuidler firstTwo = new StringBuilder(input);
-
-	 // output.delete(0,1);
-	//  firstTwo.delete(2,input.length - 1);
-
-	 // output.append(firstTwo.toString());
-
-	 // return output.toString();
-		return null;
+		String output = input.substring(2, input.length() - 1);
+		return output + input.substring(0,2);
 	}
 	
 	/**
