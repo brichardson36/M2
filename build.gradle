@@ -1,17 +1,20 @@
 group 'm2g'
 version '1.0-SNAPSHOT'
 
-apply plugin: 'java'
+apply plugin: "java"
 
 sourceCompatibility = 1.8
 
-dependencies {
-    compile files('lib/resources.jar')
-}
+defaultTasks'jar'
 
 jar {
     manifest {
         attributes("Main-Class": "edu.gatech.oad.antlab.pkg1.AntLabMain",
                 "Class-Path": "../../lib/resources.jar")
     }
+}
+
+
+dependencies {
+    compile files('lib/resources.jar')
 }
