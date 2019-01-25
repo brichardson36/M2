@@ -14,3 +14,4 @@ dependencies {
     compile files('lib/resources.jar')
 
 }
+
