@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 .idea/
 .gradle/
 build/
-.DS_Store
-=======
 .DS_Store
 
 # Log file
@@ -28,4 +25,3 @@ build/
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
->>>>>>> 30439cb25af21c44c037a9de97edcd9a5bf1e5d5
